@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Amatica+SC';
+html{
+	font-family: 'Amatica SC', cursive !important;
+}
+#text {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+.fa:hover{
+	color: grey;
+}
+#dropdown{
+	left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    width: 100%;
+    z-index: 3;
+}
+.snapcode{
+	height: 40%;
+	width: 40%;
+}
