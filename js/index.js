@@ -1,3 +1,4 @@
+var scplayer;
 $(document).ready(function(){
 		console.log('Oh hey there, welcome to the console. Try typing- Commands()');
         $("#name").typed({
@@ -38,37 +39,48 @@ function play(){
 			title: 'Goodbye Sadness',
 			artist: 'future james',
 			link: 'https://theartistunion.com/tracks/173dfe',
-			yt: 'UfqBrpScwCM',
+			id: '231547410',
 		},
 		1: {
 			title: 'Velvet Cake',
 			artist: 'qole',
 			link: 'https://soundcloud.com/qole/velvetcake',
-			yt: 'PSQsYZiqF7U',
+			id: '234183211',
 		},
 		2: {
 			title: 'Spark [extended version]',
 			artist: 'Maxwell Young',
 			link: 'https://soundcloud.com/maxwell_young/spark-extended',
-			yt: 'Fd2eEmzpbBo',
+			id: '225760351',
 		},
 		3: {
 			title: 'Frisbee',
 			artist: 'Andrew Applebee',
 			link: 'https://soundcloud.com/andrewapplepie/frisbee',
-			yt: 'UT3edR1-D0U',
+			id: '252594565',
 		},
 		4: {
 			title: 'MMHHMM',
 			artist: 'LiamLRY',
 			link: 'https://soundcloud.com/liamlry/mmhhmm',
-			yt: 'dtlniwdXjlU',
+			id: '199862040',
 		},
 	}
 	var num = Math.floor((Math.random() * 4));
-	$('.song').append('<iframe id="ytplayer" type="text/html" style="display: none;" src="https://www.youtube.com/embed/'+songs[num].yt+'?autoplay=1&origin=http://joebabbitt.com"frameborder="0"></iframe>');
-	console.log('Playing: '+songs[num].title+' by '+songs[num].artist+'\nbe sure to go and support the artist by giving a listen and buying the song :)\nlink to this song:'+songs[num].link);
+
+	//Soundcloud player
+	SC.initialize({
+	  client_id: 'a048fa40abbe2f38469223411588dcfc'
+	});
+
+	// stream track id 293
+	SC.stream('/tracks/'+songs[num].id).then(function(player){
+	  scplayer = player;
+	  player.play();
+	});
+
+	console.log('Playing: '+songs[num].title+' by '+songs[num].artist+'\nbe sure to go and support the artist by giving a listen and buying the song :)\nlink to this song:'+songs[num].link+'\nUses soundcloud api at http://soundcloud.com');
 }
 function stop(){
-	$('.song').html(' ');
+	scplayer.pause();
 }
