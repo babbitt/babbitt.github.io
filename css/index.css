@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Amatica+SC';
 html{
 	font-family: 'Amatica SC', cursive !important;
+    overflow: hidden;
 }
 #text {
     left: 0;
@@ -22,7 +23,25 @@ html{
     text-align: center;
     top: -100%;
     width: 100%;
+    z-index: 4;
+}
+#biodropdown{
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    width: 100%;
     z-index: 3;
+    padding-top: 20%;
+}
+hr{
+    margin: 0!important;
+}
+.regtext{
+    font-family: sans-serif;
+}
+a:link{
+    text-decoration: none;
 }
 .snapcode{
 	height: 40%;
@@ -32,6 +51,22 @@ html{
 	font-size: .5em;
 }
 .avatar{
-	height: 3.6rem;
-	width: 3.6rem;
+	height: 10rem;
+	width: 10rem;
+}
+#privacypolicy{
+    position: absolute; 
+    bottom:-100%;
+    z-index: 3;
+    background-color: white;
+    width: 100%;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.unprivacy{
+    position: absolute;
+    right:0;
 }

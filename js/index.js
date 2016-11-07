@@ -6,14 +6,37 @@ $(document).ready(function(){
             typeSpeed: 100,
             showCursor: false,
         });
-        $('.fa-snapchat-ghost').click(snapcode)
-        $('.fa-times').click(unsnapcode);
+        $('.fa-snapchat-ghost').click(snapcode);
+        $('#bio').click(bio);
+        $('.unsnap').click(unsnapcode);
+        $('.unbio').click(unbio);
+        $('#privacybutton').click(privacy);
+        $('.unprivacy').click(unprivacy);
     });
+function privacy(){
+	$('#privacypolicy').animate({
+		bottom: '0%',
+	});
+}
+function unprivacy(){
+	$('#privacypolicy').animate({
+		bottom: '-100%',
+	});
+}
+function bio(){
+	$('#biodropdown').animate({
+		top: '0%',
+	});
+}
+function unbio(){
+	$('#biodropdown').animate({
+		top: '-100%',
+		});
+}
 function snapcode(){
 	$('#dropdown').animate({
 		top: '20%',
 	});
-	droppeddown = true;
 }
 function unsnapcode(){
 		$('#dropdown').animate({
