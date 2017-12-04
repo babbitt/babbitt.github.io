@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /SciStorm
-User-agent: *
-Disallow: /SciStormdev

@@ -1,55 +1,76 @@
-@font-face {
-    font-family: proximaNova;
-    src: url(../fonts/ProximaR.otf);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html,body{
+	min-height: 100%;
+	font-family: 'Montserrat', sans-serif;
+
 }
-html{
-	font-family: 'proximaNova', serif !important;
-    overflow: hidden;
+#wscreen{
+	background-color: rgba(255, 255, 255, 0.7);
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
-#text {
-    left: 0;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    width: 100%;
+#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+	-ms-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-webkit-filter: blur(5px);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+	filter: blur(5px);
+    transform: translateX(-50%) translateY(-50%);
+	opacity: 0;
 }
-.fa:hover{
-	color: grey;
+#vidholder{
+	background-color: white;
 }
-hr{
-    margin: 0!important;
+.name{
+	height:100%;
 }
-a:link{
-    text-decoration: none;
+.subtext{
+	 background-color: rgba(255, 255, 255, 0.5);
+	 box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+	 padding: 2em;
 }
-.avatar{
-	height: 10rem;
-	transition: background-color 2s;
+.item-row{
+	padding-top: 3em;
+	opacity: 0;
+	transition: opacity 1s;
 }
-.avatar:hover{
-	background-color: #000000;
-	transition: background-color .5s;
-}
-#privacypolicy{
-    position: absolute;
-    bottom:-100%;
-    z-index: 3;
-    background-color: white;
-    width: 100%;
-}
-button{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-.unprivacy{
-    position: absolute;
-    right:0;
-}
-#aboutstuff{
+.item-button{
 	width: 100%;
-	height: 10%;
-	margin: 0;
-	padding: 0;
+	padding-top: 2em;
+	height: 8em;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.item-button:hover{
+	background-color: #000000;
+	color: white;
+	transition: color .25s;
+}
+#signature{
+	cursor: pointer;
+}
+.social,.social:link,.social:visited,.fa{
+	text-decoration: none;
+	font-size: 3em;
+	color: #000000;
 }

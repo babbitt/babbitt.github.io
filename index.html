@@ -3,57 +3,63 @@
 <head>
 	<title>Joe Babbitt</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Joe Babbitt, Programmer, Student, Web-designer" />
-	<link rel="icon" href="https://avatars0.githubusercontent.com/u/10392896?v=3&s=64">
-	<link rel="stylesheet" href="css/index.css">
+	<meta name="description" content="Joe Babbitt, Programmer, Student, Tinkenter" />
+	<link rel="icon" href="img/logo.png">
 	<link rel="stylesheet" href="css/skeleton.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-	<script src="js/typed.js"></script>
 	<script src="js/index.js"></script>
+
 </head>
 <body>
-<div id="text">
-  <h1 id="name"></h1>
-  	<div id="socials">
-  	<h2>
-  		<a href="https://www.github.com/babbitt" target="_blank_"><i class="fa fa-github" aria-hidden="true"></i></a>
-  		<a href="mailto:jrebbabbitt@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-  	</h2>
-  	<a href="#"><img src="img/avatar.png" class="avatar me"/></a>
-		<br>
-		<a href="http://bthsrobotics.com" target="_blank_"><img src="http://bthsrobotics.com/assets/images/logo.svg" class="avatar robotics"/></a>
-		<a href="http://scistorm.net" target="_blank_"><img src="img/scistormlogo.png" class="avatar scistorm"/></a>
-  </div>
-	<div id="aboutstuff">
+<div class="vids">
+	<div id="wscreen"></div>
+	<video playsinline autoplay muted loop id="bgvid"></video>
+</div>
+
+	<div class="container name">
+		<div class="row">
+			<div class="name-svg twelve columns">
+				<svg id="signature" data-name="signature" viewBox="0 0 238.6 119.57" style="" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;}.cls-2{fill:none;}.cls-3{font-size:4.85px;font-family:ProximaNova-Light, Proxima Nova;}.cls-4{letter-spacing:-0.08em;}.cls-5{letter-spacing:-0.26em;}.cls-6{letter-spacing:-0.03em;}.cls-7{letter-spacing:-0.02em;}</style></defs>
+				  <title>Joseph Babbit</title>
+				  <path class="cls-1 aYMhufdg_0" d="M744.5,288.5" transform="translate(-887.9 -255.5)"/>
+				  <path class="cls-2 aYMhufdg_1" d="M959.5,311.5h0c.46.41-16,5.77-24.92,7.53a15.42,15.42,0,0,1-5.08.47c-4-1,2-5,2-5s17.64-15.85,32.63-26c30.39-20.57,41.75-26.29,36.06-26.65S960.9,313,944.5,330.5c-16.43,17.66-31.74,31.21-46,41-4,2.87-6.86,3.25-9,3-1.55-1-1.39-2.73,0-5,8.09-8,30-23,30-23s57-38,56-39" transform="translate(-887.9 -255.5)"/>
+				  <path class="cls-2 aYMhufdg_2" d="M983,310.74c-8.31-7.65,23.53-44.44,34.82-42.76,8.59,8.13-24.16,37.77-21.19,38.34,47.39,9.18,11.72,26.08-6.06,16.22l33.3-1.47c9.18,0,8.71-8.16,4.54-8.85-8.82,4.62-3.62,10.6-1.51,8.85,6.31-5.88,6-1.21,9.08,0,14.1-3.78,32.23-38.3,27.25-44.24-2.6,2.34-4.42,6.82-6.06,11.8-3.83,11.28-11.52,28.11-9.08,29.49s10.54-6.94,7.57-8.85c-6.33-.37.16,8.46,1.51,8.85s24.22-41.29,22.71-42.76-10.6,22.12-10.6,22.12c-4.78,10.26-8.49,24.52-6.06,25.07,5.79,1.29,10.68-12.82,4.54-10.32-2,.8,3,5.9,3,5.9,3-1.09,7.57-7.37,7.57-5.9s-2.89,6.75-1.51,7.37c10.3,4.69,29.28-52.27,27.25-51.61-4.12,1.34-18.67,53.78-16.65,53.09,14.06-4.85,37.22-68.87,30.28-64.88-10,19.15-19.68,63.41-18.17,64.88s6.06-1.47,6.06-1.47c6.47-5,24.22-22.12,19.68-22.12s-39.36,2.95-39.36,2.95" transform="translate(-887.9 -255.5)"/>
+				  <path class="cls-2 aYMhufdg_3" d="M1081.5,299.5" transform="translate(-887.9 -255.5)"/>
+				  <path class="cls-2 aYMhufdg_4" d="M1079.5,304.5a3.17,3.17,0,0,0,1-2" transform="translate(-887.9 -255.5)"/>
+				  <text class="cls-3" transform="translate(140.1 84.61)" style="white-space: pre;">Joseph Babbitt</text>
+				  <text class="cls-3" transform="translate(140.1 91.61)" style="white-space: pre;">Programme<tspan class="cls-4" x="24.32" y="0">r,</tspan><tspan class="cls-6" x="27.78" y="0">R</tspan><tspan x="30.51" y="0">oboticist, </tspan><tspan class="cls-7" x="50.51" y="0">S</tspan><tspan x="53.24" y="0">tudent </tspan><tspan x="67.92" y="0">&amp; </tspan><tspan x="72.28" y="0">Explorer</tspan></text>
+				  <style>.aYMhufdg_0{stroke-dasharray:0 2;stroke-dashoffset:1;animation:aYMhufdg_draw 3ms ease-in-out 0ms forwards;}.aYMhufdg_1{stroke-dasharray:400 402;stroke-dashoffset:401;animation:aYMhufdg_draw 1601ms ease-in-out 3ms forwards;}.aYMhufdg_2{stroke-dasharray:844 846;stroke-dashoffset:845;animation:aYMhufdg_draw 3374ms ease-in-out 1605ms forwards;}.aYMhufdg_3{stroke-dasharray:0 2;stroke-dashoffset:1;animation:aYMhufdg_draw 3ms ease-in-out 4980ms forwards;}.aYMhufdg_4{stroke-dasharray:3 5;stroke-dashoffset:4;animation:aYMhufdg_draw 15ms ease-in-out 4984ms forwards;}@keyframes aYMhufdg_draw{100%{stroke-dashoffset:0;}}@keyframes aYMhufdg_fade{0%{stroke-opacity:1;}95.65217391304348%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
+				</svg>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="subtext twelve columns">
+				I make stuff.<br>
+				Check out some stuff I do. (I also have a <a href="docs/resume.pdf" target="_blank">resume</a>)<br>
+				<span id="loading">Just loading some stuff in the background, site's totaly usuable while this happens...</span>
+			</div>
+		</div>
 	</div>
-</div>
-<button id="privacybutton">Privacy Policy</button>
-<div id="privacypolicy">
-<hr><i class="fa fa-times unprivacy" aria-hidden="true"></i>
-<h2>I see you are concered about your data.</h2>
-<span class="regtext">Well I use Google Analytics and Github to host this website.</span>
-<h3>What does Google Analytics record?</h3>
-<span class="regtext">What website you came from to get here.<br>
-How long you stay for.<br>
-What kind of computer you are using.<br>
-<a href="https://support.google.com/analytics/answer/6004245?hl=en">Also some other stuff</a>.</span>
-<h3>What do I do with your data?</h3>
-<span class="regtext">I see who looks at my website and have some fun with the data, I am a programmer after all.
-<b>All of my activity falls within the bounds of the Google Analytics Terms of Service.</b></span>
-<h3>You said something about Github on this site?</h3>
-<span class="regtext">Yeah, this site is hosted on Github thanks to Github Pages, that means technically this site falls under their privacy terms too. <a href="https://help.github.com/articles/github-privacy-statement/">Check that out while you are at it</a></span>
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-68650871-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	<div class="container row item-row">
+		<center>
+			<div class="item four columns">
+				<a class="button item-button" id="school">Learning</a>
+			</div>
+			<div class="item four columns">
+				<a class="button item-button" id="enjoyments">Enjoyments</a>
+			</div>
+			<div class="item four columns">
+				<a class="button item-button" id="tinkenting">Tinkenting</a>
+			</div>
+			<div class="social">
+				<a href="https://github.com/babbitt" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+				<a href="mailto:jrebbabbitt@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				<a href="https://instagram.com/joseph.babbitt" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</center>
+	</div>
 </body>
-</html>
