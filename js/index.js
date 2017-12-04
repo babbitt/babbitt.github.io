@@ -5,7 +5,7 @@ var vid2 = new XMLHttpRequest();
 var vid3 = new XMLHttpRequest();
 
 vid1.open('GET', 'vid/BTHS.mp4', true);
-vid2.open('GET', 'vid/enjoyments.mp4', true);
+vid2.open('GET', 'vid/Enjoyments.mp4', true);
 vid3.open('GET', 'vid/tikenting.mp4', true);
 
 vid1.responseType = 'blob';
