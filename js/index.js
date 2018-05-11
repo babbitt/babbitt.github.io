@@ -46,20 +46,6 @@ vid2.send();
 vid3.send();
 
 $(document).ready(function(){
-	//Stop Videos on hover
-	$('.button').hover(function(){
-		if(document.getElementById("bgvid").src){
-			$('#bgvid').animate({"opacity":0},250,function(){
-				document.getElementById("bgvid").pause()
-			})
-		}
-	},function(){
-		if(document.getElementById("bgvid").src){
-			document.getElementById("bgvid").play()
-			$('#bgvid').animate({"opacity":1},250)
-		}
-	});
-
 	//On page-load
 	setTimeout(function(){
 		$('.item-row').css('opacity','1');
@@ -88,6 +74,7 @@ $(document).ready(function(){
 
 	// School "page"
 	$('#school').click(function(){
+        $('#bgvid').animate({'opacity':0},200);
 		$(this).animate({"opacity": 0,},200,function(){
 			$(this).css('display','none');
 		});
@@ -103,6 +90,7 @@ $(document).ready(function(){
 		})
 	});
 	$('#enjoyments').click(function(){
+        $('#bgvid').animate({'opacity':0},200);
 		$(this).animate({"opacity": 0,},200,function(){
 			$(this).css('display','none');
 		});
@@ -118,6 +106,7 @@ $(document).ready(function(){
 		})
 	});
 	$('#tinkenting').click(function(){
+        $('#bgvid').animate({'opacity':0},200);
 		$(this).animate({"opacity": 0,},200,function(){
 			$(this).css('display','none');
 		});
@@ -132,4 +121,5 @@ $(document).ready(function(){
 			$('.button').animate({"opacity": 1},100);
 		})
 	});
+
 });

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'BbttFont';
+  src:  url('../fonts/Babbitt.eot?cnkn37');
+  src:  url('../fonts/Babbitt.eot?cnkn37#iefix') format('embedded-opentype'),
+    url('../fonts/Babbitt.ttf?cnkn37') format('truetype'),
+    url('../fonts/Babbitt.woff?cnkn37') format('woff'),
+    url('../fonts/Babbitt.svg?cnkn37#Babbitt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Bicon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'BbttFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-BW:before {
+  content: "\1f5a5";
+}
+.ico-C .path1:before {
+  content: "\1f4bb";
+  color: rgb(0, 174, 239);
+}
+.ico-C .path2:before {
+  content: "\1f4bc";
+  margin-left: -1em;
+  color: rgb(0, 174, 239);
+}
+.ico-C .path3:before {
+  content: "\1f4bd";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+}
+.ico-C .path4:before {
+  content: "\1f4be";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+}
