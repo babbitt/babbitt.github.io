@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="open">
+
+<head>
+    <title>Joe Babbitt - BTHS/NHS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Joe Babbitt. A person" />
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="/js/all.js"></script>
+    <script src="/js/subpage.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <span class="imgHugger left"></span><img class="svg mainLoader" /><span class="imgHugger right"></span><i
+            class="fas fa-times"></i>
+
+    </nav>
+    <div id="content">
+        <div id="top-level">
+            <div style="display:flex;">
+                <div style="flex:.5;margin: auto;">
+                    <img src="/img/headshot.jpg"/ id="headshot">
+                </div>
+                <div class="text" style="flex: 3;">
+                    <h1>Hey there!</h1>
+                    <h3>I'm Joe, check out where I am, what I do, and maybe my <a style="color: #00b9f2;"
+                            href="/resume.pdf">resume</a>.</h3>
+                </div>
+            </div>
+        </div>
+        <div id="main-row">
+            <div class="grid">
+                <div class="item active" id="NHS">
+                    <div class="container">
+                        <span class="loadin">
+                            <img class="latesvg" src="/img/nhs.svg">
+                            <div class="text">
+                                <h3>Former Senior Chair of Tours of</h3>
+                                <h2>Tech's NHS Chapter</h2>
+                                <p> While I was a member of our NHS chapter all four years in high school. I was lucky enough to be appointed as the Senior chair of our Tours during my final year at Tech. 
+                                    <br><br>
+
+                                    In addition to organizing over 25 events, managing 60+ tour guides, and welcoming over 8,000 visitors during my time in the position, I also found my own way to put a unique spin on the position I had been given. I created custom management software for our NHS org that allowed execs to contact their members and perform essential management functions all through Google Sheets and Forms, both of which are deeply integrated into our org. This created a stress-free environment and took the load off our execs so that they could just schedule an event through the interface and let the computer send out emails, generate sign up links, and watch for participation.
+                                </p>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    $(document).ready(() => {
+        history.pushState({
+            moveTo: "/BTHS/NHS"
+        }, "", "/BTHS/NHS");
+        $('nav').click(() => {
+            window.location = "/?noanimate=true"
+        });
+    });
+</script>
+
+</html>

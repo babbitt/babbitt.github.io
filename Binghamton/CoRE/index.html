@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="open">
+
+<head>
+    <title>Joe Babbitt - CoRE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Joe Babbitt. A person" />
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="/js/all.js"></script>
+    <script src="/js/subpage.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <span class="imgHugger left"></span><img class="svg mainLoader" /><span class="imgHugger right"></span><i
+            class="fas fa-times"></i>
+
+    </nav>
+    <div id="content">
+        <div id="intro">
+            <h1>Joseph Babbitt is...</h1>
+        </div>
+        <div id="main-row">
+            <div class="grid">
+                <div class="item active" id="CoRE">
+                    <div class="container">
+                        <span class="loadin">
+                            <img class="latesvg" src="/img/core.svg">
+                            <div class="text">
+                                <h3>The Freshman representative of the</h3>
+                                <h2>CoRE Learning Community</h2>
+                                <p>
+                                    Although I'm still in my first semester here at Binghamton, I've become part of a great community here on campus at CoRE. The CoRE learning community, short for Computers Robotics, and Engineering, is a housing unit at Binghamton for those interested in any of the formerly mentioned topics. Whether it be random hacking about, or a casual hallway office chair jousting match, we always have a good time!
+                                    <br>
+                                    With the community provides for me I'm more than happy to act as the freshman representative, speaking for all the freshman in CoRE and helping to ensure our local government is all set for the future.
+                                </p>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    setTimeout(function () {
+        TweenMax.to(".BingMinutes", 10, {
+            rotation: 360,
+            transformOrigin: "bottom",
+            repeat: -1,
+            ease: "linear"
+        });
+        TweenMax.to(".BingHours", 120, {
+            rotation: 360,
+            transformOrigin: "bottom",
+            repeat: -1,
+            ease: "linear"
+        });
+    }, 1500);
+
+    $(document).ready(() => {
+        history.pushState({
+            moveTo: "/Binghamton/CoRE"
+        }, "", "/Binghamton/CoRE");
+        $('nav').click(() => {
+            window.location = "/?noanimate=true"
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Bing" x="0px" y="0px" viewBox="0 0 144 216" style="enable-background:new 0 0 144 216;" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	.bingColor0{fill:#CE996F;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.bingColor1{fill:none;stroke:#41B97C;stroke-width:3;stroke-miterlimit:10;}
+	.bingColor2{fill:#41B97C;}
+	.bingColor3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+  <rect id="Base" x="13.319" y="143.342" class="bingColor0" width="53.3" height="73.2"/>
+  <g id="Tellis" transform="matrix(1, 0, 0, 1, -25.880577, 7.342184)">
+    <line class="bingColor1" x1="41.2" y1="136.5" x2="41.2" y2="12.8"/>
+    <line class="bingColor1" x1="57.7" y1="136.5" x2="57.7" y2="12.8"/>
+    <line class="bingColor1" x1="74.1" y1="136.5" x2="74.1" y2="12.8"/>
+    <line class="bingColor1" x1="41.2" y1="14.3" x2="90.6" y2="14.3"/>
+    <line class="bingColor1" x1="41.2" y1="33.1" x2="90.6" y2="33.1"/>
+    <line class="bingColor1" x1="41.2" y1="135" x2="90.6" y2="135"/>
+    <line class="bingColor1" x1="39.9" y1="50.3" x2="89.2" y2="50.3"/>
+    <line class="bingColor1" x1="41.2" y1="102.5" x2="90.6" y2="102.5"/>
+    <line class="bingColor1" x1="41.2" y1="85.1" x2="90.6" y2="85.1"/>
+    <line class="bingColor1" x1="41.2" y1="68" x2="90.6" y2="68"/>
+    <line class="bingColor1" x1="41.2" y1="119.6" x2="90.6" y2="119.6"/>
+    <line class="bingColor1" x1="90.6" y1="136.5" x2="90.6" y2="12.8"/>
+  </g>
+  <circle id="Clockface" class="bingColor2" cx="40.043" cy="74.853" r="14.4"/>
+  <line class="BingMinutes bingColor3" x1="40.043" y1="74.853" x2="40.043" y2="60.453"/>
+  <line class="BingHours bingColor3" x1="40.043" y1="74.853" x2="40.043" y2="63.453"/>
+  <circle id="POSclockpeice" cx="39.843" cy="75.053" r="0.4"/>
+  <g transform="matrix(0.669546, 0, 0, -0.669546, 67.224098, 222.527603)" style="">
+    <g transform="">
+      <path d="M 112.752 181.169 L 31.248 181.169 L 31.248 10.056 L 112.752 10.056 Z" style="fill: rgb(213, 153, 109); fill-opacity: 1;"/>
+      <path d="M 91.411 10.056 L 52.235 10.056 L 52.235 181.169 L 91.411 181.169 Z" style="fill: rgb(230, 240, 234); fill-opacity: 1;"/>
+      <path d="M 85.716 197.83 L 58.284 197.83 L 58.284 181.169 L 85.716 181.169 Z" style="fill: rgb(213, 153, 109); fill-opacity: 1;"/>
+      <path d="M 79.703 197.83 L 64.393 197.83 L 64.393 181.169 L 79.703 181.169 Z" style="fill: rgb(230, 240, 234); fill-opacity: 1;"/>
+      <path d="M 91.411 199.181 L 52.419 199.181 L 52.419 197.83 L 91.411 197.83 Z" style="fill: rgb(0, 171, 79); fill-opacity: 1;"/>
+    </g>
+  </g>
+</svg>
