@@ -14,6 +14,12 @@ setTimeout(function () {
     });
 }, 1500);
 
+setTimeout(function () {
+    $('html').css("overflow", "scroll")
+}, 2500)
+
+
+
 $(document).ready(() => {
     if (getQueryVariable("noanimate")) {
         document.querySelector('nav').classList.add('override');

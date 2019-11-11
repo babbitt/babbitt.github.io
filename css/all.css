@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 #top-level {
-    transition: padding .25s;
+    transition: margin .25s;
 }
 .open #top-level {
     margin: 0;
@@ -32,11 +32,11 @@
 }
 #top-level .text {
     transition: margin-left .25s;
-    transition-delay: .25s;
+    /* transition-delay: .25s; */
 }
 .open #top-level .text {
-    /* display: none!important; */
-    margin-left: -100em!important;
+    /* margin-left: -300em!important; */
+    display: none!important;
     height: 0;
 }
 #headshot {

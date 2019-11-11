@@ -1,4 +1,5 @@
 html {
+    /* JS animation for other broswers */
     animation-name: clipPagelength;
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
