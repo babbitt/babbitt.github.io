@@ -7,139 +7,227 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Joe Babbitt. A person" />
     <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/skeleton.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
-        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 
 <body>
     <nav>
-        <span class="imgHugger left"></span><img class="svg mainLoader" /> <span class="imgHugger right"></span><i
-            class="fas fa-times"></i>
+        <div id="nav-logo" class="face-img">
+            <img src="static/img/headshot-noface.jpg" alt="Headshot."/>
+        </div>
+        <div class="nav-name">Joe Babbitt</div>
     </nav>
+    <div id="hero">
+        <h1>Hi there,</h1>
+        <h2>Pleasure to meet you.<br>
+            Click around, scroll down, or <a style="color: inherit;" href="/resume">check out my resume</a> to learn more about me.<br>
+            So I can learn about you, please reach out. I'm availble all over the place.</h2>
+        <div id="social">
+            <a href="mailto:hello@joeBabbitt.com" target="_blank"><i class="far fa-envelope"
+                    aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/in/joebabbitt" target="_blank"><i class="fab fa-linkedin"
+                    aria-hidden="true"></i></a>
+            <a href="https://github.com/babbitt" target="_blank"><i class="fab fa-github-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://instagram.com/joseph.babbitt" target="_blank"><i class="fab fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a class="tooltip" href="https://www.snapchat.com/add/joe789101112" target="_blank"><i
+                    class="fab fa-snapchat-square" aria-hidden="true"></i><span><img
+                        src="/static/img/social/snapcode.png"
+                        style="box-shadow: black 5px 5px 15px 0px;border-radius: 17%;"></span></a>
+            <a class="tooltip" href="https://m.me/babbittJoe" target="_blank"><i
+                    class="fab fa-facebook-messenger" aria-hidden="true"></i><span><img
+                        style="border-radius: 100%;box-shadow: black 12px 8px 15px 0px;"
+                        src="/static/img/social/messengerCode.jpg"></span></a>
+        </div>
+        <div id="selection">
+            <a href="#APerson">A Person</a>
+            <a href="#AProgrammer">A Programmer</a>
+            <a href="#AStudent">A Student</a>
+        </div>
+        <div id="continue"><i class="fas fa-sort-down"></i></div>
+        <img id="logo" src="static/img/logo.svg"/>
+    </div>
+    <div id="stickyNav">
+        <div class="nav-name">Joe Babbitt.</div><div id="section-name"></div>
+    </div>
     <div id="content">
-        <div id="top-level">
-            <div style="display:flex;">
-                <div style="flex:.5;margin: auto;">
-                    <img src="img/headshot.jpg"/ id="headshot">
+        <div class="section" id="APerson">
+            <div class="row">
+                <div class="four columns me-img">
+                    <img id="me-photo" src="static/img/person/me-noface.jpg">
                 </div>
-                <div class="text" style="flex: 3;">
-                    <h1>Hey there!</h1>
-                    <h3>I'm Joe, check out where I am, what I do, and maybe my <a style="color: #00b9f2;"
-                            href="/resume.pdf">resume</a>.</h3>
-                </div>
-            </div>
-            <div class="text" style="display: inline;margin: 10px;">
-                <h4 style="margin: 0;display: inherit;">Feel free to connect with me at all the usual suspects</h4>
-                <div id="social">
-                    <a href="mailto:sayHi@joeBabbitt.com" target="_blank"><i class="far fa-envelope"
-                            aria-hidden="true"></i></a>
-                    <a href="https://linkedin.com/in/joebabbitt" target="_blank"><i class="fab fa-linkedin"
-                            aria-hidden="true"></i></a>
-                    <a href="https://github.com/babbitt" target="_blank"><i class="fab fa-github-square"
-                            aria-hidden="true"></i></a>
-                    <a href="https://instagram.com/joseph.babbitt" target="_blank"><i class="fab fa-instagram"
-                            aria-hidden="true"></i></a>
-                    <a class="tooltip" href="https://www.snapchat.com/add/joe789101112" target="_blank"><i
-                            class="fab fa-snapchat-square" aria-hidden="true"></i><span><img
-                                src="img/social/snapcode.png"
-                                style="box-shadow: black 5px 5px 15px 0px;border-radius: 17%;"></span></a>
-                    <a class="tooltip" href="https://m.me/babbittJoe" target="_blank"><i
-                            class="fab fa-facebook-messenger" aria-hidden="true"></i><span><img
-                                style="border-radius: 100%;box-shadow: white 5px 5px 15px 0px;"
-                                src="img/social/messengerCode.jpg"></span></a>
-                </div>
-            </div>
-        </div>
-        <div id="intro">
-            <h1>I am...</h1>
-        </div>
-        <div id="main-row">
-            <div class="grid">
-                <div class="item first" id="BTHS">
-                    <div class="container">
+                <div class="eight columns copy">
+                    <h1>A Person</h1>
+                    <h5>I'm Joe, and right now I'm figuring out what exactly I should be doing.</h5>
+                    <p>
+                        I'm currently a sophomore at Binghamton University studying CS, with interests in Anthropology, Robotics, and Human Computer Interaction.
+                    </p>
+                    <p style="margin: 5px 0;">
+                        Even if I don't know exactly what comes next, I've tried to make the most of the last <span id="yearsAlive">19</span> years. Here's the part where I brag even though I really hate doing that.
+                    </p>
+                    <div id="awards">
+                                <a href="/awards/nat-geo"><div style="background-image: url('/static/img/awards/ngeo.svg');" class="badge-ribbon">
+                                </div></a>
+                                <a href="/awards/maker-faire"><div style="background-image: url('/static/img/awards/whmf.svg');" class="badge-ribbon">
+                                </div></a>
+                                <a href="/awards/eagle-scout"><div style="background-image: url('/static/img/awards/eagle.svg');" class="badge-ribbon">
+                                </div></a>
+                                <a href="/awards/spark"><div style="background-image: url('/static/img/awards/spark.svg');" class="badge-ribbon">
+                                </div></a>
+                                <a href="/awards/deloitte"><div style="background-image: url('/static/img/awards/deloitte.svg');" class="badge-ribbon">
+                                </div></a>
+                        </div>
                     </div>
-                </div>
-                <div class="item" id="Binghamton">
-                    <div class="container">
-                    </div>
-                </div>
-                <div class="item last" id="Bloomberg">
-                    <div class="container">
-                    </div>
+                    <!-- <p>
+                        But I digress... There's lot more I've done, but it's all neatly organized in two other sections below. Let us continue?
+                    </p> -->
                 </div>
             </div>
         </div>
-        <div class="subheading">
-            <h1>I'm known for being...</h1>
-        </div>
-        <div id="sub-row">
-            <div class="grid">
-                <div class="item first" id="Binghamton-CoRE">
-                    <div class="container">
+        <div class="section" id="AProgrammer">
+            <div class="row">
+                <div class="eight columns">
+                    <h1>A Programmer</h1>
+                    <h5>Using computers to enhance our lives is a passion of mine, and I'm lucky enough to make it my major and career too.</h5>
+                    <h4>Employment</h4>
+                    <div class="emp-row">
+                        <a href="/programmer/bloomberg">
+                            <div id="emp-bloomberg" class="employer" onmouseenter="showBB()" onmouseleave="hideBB()">
+                                <img src="static/img/programmer/terminal.svg" alt="The Bloomberg Terminal." />
+                                <!-- <div class="emp-name">Bloomberg LP</div> -->
+                            </div>
+                        </a>
+                        <a href="/programmer/fairly">
+                            <div id="emp-fairly" class="employer" onmouseenter="showFairly()" onmouseleave="hideFairly()">
+                                <img src="static/img/programmer/fairly.svg" alt="FairlyTax.com" />
+                                <!-- <div class="emp-name">FairlyTax.com</div> -->
+                            </div>
+                        </a>
+                        <a href="programmer/binghamton/">
+                            <div id="emp-binghamton" class="employer" onmouseenter="showBing()" onmouseleave="hideBing()">
+                                <img src="static/img/programmer/binghamton.svg" alt="Binghamton University" />
+                                <!-- <div class="emp-name">Binghamton University</div> -->
+                            </div>
+                        </a>
+                        <a href="programmer/bssl">
+                            <div id="emp-bssl" class="employer" onmouseenter="showBSSL()" onmouseleave="hideBSSL()">
+                                <img src="static/img/programmer/bssl.svg" alt="BSSL" />
+                                <!-- <div class="emp-name">BSSL</div> -->
+                            </div>
+                        </a>
+                    </div>
+                    <div id="projects">
+                        <h4 style="margin-top: 2rem;">Projects</h4>
+                        <div id="hackathon-projects">
+                            <h5>Hackathons</h5>
+                            <div class="project-grid">
+                                <a href="/projects/jotter/">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/jotter.svg" alt="Jotter."/>
+                                    </div>
+                                </a>
+                                <a href="projects/walkto">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/walkto.svg" alt="Walk To."/>
+                                    </div>
+                                </a>
+                                <a href="https://devpost.com/software/soup-s-on">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/soupson.svg" alt="Soups on!"/>
+                                    </div>
+                                </a>
+                                <a href="https://devpost.com/software/notable-0adt27">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/notable.svg" alt="Noteable."/>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="personal-projects">
+                            <h5>Personal Projects</h5>
+                            <div class="project-grid">
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/qrscout.svg" alt="QR Scout."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/newslettertool.svg" alt="Newsletter Tool."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/roboswipe.svg" alt="RoboSwipe."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/shopbot.svg" alt="ShopBot."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/coursesniper.svg" alt="Course Sniper."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/slugs.svg" alt="SLUGS."/>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/duit.svg" alt="Duit."/>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div id="hardware-projects">
+                            <h5>Hardware Projects</h5>
+                            <div class="project-grid">
+                                <a href="/projects/subwall">
+                                    <div class="project">
+                                        <img src="/static/img/programmer/projects/duit.svg" alt="SubWall."/>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="item first" id="BSA">
-                    <div class="container">
-                    </div>
-                </div>
-                <div class="item" id="BTHS-TechKnights">
-                    <div class="container">
-                    </div>
-                </div>
-                <div class="item last" id="BTHS-NHS">
-                    <div class="container">
-                    </div>
+                <div style="margin: 0;" id="reading-pane" class="four columns">
+                    <!-- <div class="rp-div" id="rp-default"></div> -->
+                    <div class="rp-div" id="rp-bloomberg"></div>
+                    <div class="rp-div" id="rp-fairly"></div>
+                    <div class="rp-div" id="rp-binghamton"></div>
+                    <div class="rp-div" id="rp-bssl"></div>
                 </div>
             </div>
         </div>
-        <!-- <div class="subheading">
-            <h1>I've created...</h1>
-        </div>
-        <div id="created">
-            <div class="grid">
-                <div class="item first" id="Projects-SoupsOn">
-                    <div class="container">
-                    </div>
+        <div class="section" id="AStudent">
+            <a href="#" class="four columns institution">
+                <div id="tech-background">
+                    <img src="/static/img/student/tech.svg"/>
+                    <h3>Brooklyn Tech</h3>
                 </div>
-                <div class="item first" id="">
-                    <div class="container">
-                    </div>
+            </a>
+            <a href="#" class="four columns institution">
+                <div id="binghamton-background">
+                    <img src="/static/img/student/bing.svg"/>
+                    <h3>Binghamton University</h3>
                 </div>
-                <div class="item" id="">
-                    <div class="container">
-                    </div>
-                </div>
-                <div class="item last" id="">
-                    <div class="container">
-                    </div>
-                </div>
+            </a>
+            <div class="four columns copy">
+                <h1>A Student</h1>
+                <p>Currently I attend Binghamton University where I study Computer Science. Thoughout my educational carrer I've honed in my decision to work in the tech industry and have learned about CS, Robotics, Engineering, and Manufacturing. Recently I've taken to gaining a better understanding of the world that we create around us, and have been studying the 'UX' of our world under the larger guise of Anthropology and Philosophy.</p>
             </div>
-        </div> -->
+        </div>
     </div>
 </body>
-<script>
-    $("#BTHS > .container").load("BTHS/index.html .loadin");
-    $("#Binghamton > .container").load("Binghamton/index.html .loadin");
-    $("#Bloomberg > .container").load("Bloomberg/index.html .loadin");
-
-    $("#Binghamton-CoRE > .container").load("Binghamton/CoRE/index.html .loadin");
-    $("#BSA > .container").load("BSA/index.html .loadin");
-    $("#BTHS-TechKnights > .container").load("BTHS/TechKnights/index.html .loadin");
-    $("#BTHS-NHS > .container").load("BTHS/NHS/index.html .loadin");
-</script>
-<script src="js/index.js"></script>
-<script src="/js/all.js"></script>
-<script>
-    $(document).ready(() => {
-        history.pushState({
-            moveTo: "/"
-        }, "", "/");
-    });
-</script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="/static/js/index.js"></script>
 </html>
