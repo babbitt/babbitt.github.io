@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }} | {{ page.title }}</title>
+    <link rel='icon' type='image/png' href='/assets/img/favicon.ico'>
+    <link rel='icon' sizes='192x192' href='/assets/img/android-chrome-192x192.png'>
+    <link rel='apple-touch-icon' href='/assets/img/apple-touch-icon.png'>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    {% seo %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <section>
+      {{ content }}
+    </section>
+  </body>
+</html>

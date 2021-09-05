@@ -1,0 +1,91 @@
+---
+layout: page
+---
+<div class="school_container">
+    <div id="school-name">
+        <div class="placehold-color"></div>
+        <div id="name">
+            {{page.name}}
+        </div>
+    </div>
+    <div style="width: 100%; padding: 3rem;">
+        <div class="metadata">
+            <img src="{{page.logo}}" alt="{{page.logo-alt}}"/>
+            <div class="data">
+                <h1>
+                   {{page.degree}}
+                </h1>
+                <h2>
+                    {{page.attended}}
+                </h2>
+                <h3>
+                    GPA: {{page.gpa}}
+                </h3>
+            </div>
+        </div>
+        <div style="margin-top: 2rem;">
+            {{content}}
+        </div>
+    </div>
+</div>
+<style>
+.school_container {
+    display: flex;
+    width: 100%;
+    color: {{page.text-color}};
+}
+#school-name {
+    width: 10vh;
+}
+.placehold-color {
+    top: 0;
+    z-index: -1;
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    background-color: {{page.schoolColor}};
+}
+.school_container #name {
+    position: fixed;
+    height: 90vh;
+    width: 10vh;
+    color: white;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: {{page.schoolColor}};
+}
+.metadata {
+    display: flex;
+}
+.metadata .data {
+    margin-left: 1rem;
+}
+.metadata > img {
+    width: 15rem;
+}
+.metadata h1 {
+    font-size: 2rem;
+}
+.metadata h2 {
+    font-size: 1.5rem;
+}
+.metadata h3 {
+    font-size: 1.5rem;
+}
+@media (max-width: 550px) {
+    .metadata {
+        flex-direction: column;
+    }
+    .metadata .data {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
+</style>
+<script src="/assets/js/textfit.js"></script>
+<script>
+    textFit(document.getElementById('name'));
+    window.onresize = () => {
+        textFit(document.getElementById('name'));
+    }
+</script>
