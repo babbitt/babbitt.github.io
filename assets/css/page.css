@@ -87,7 +87,7 @@ nav:hover img{
 }
 
 .availableat {
-    height: 15rem;
+    height: 100%;
     font-size: 2rem;
     padding: 0 1rem;
     background-color: #000;
@@ -143,27 +143,6 @@ nav:hover img{
     text-decoration: none;
 }
 
-.availableat {
-    height: 15rem;
-    font-size: 2rem;
-    padding: 0 1rem;
-    background-color: #000;
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    transition: filter .25s;
-}
-.availableat:hover {
-    filter: invert(.1);
-}
-
-.availableat * {
-    font-size: 3rem;
-    width: 3rem!important;
-    margin: auto!important;
-    text-decoration: none;
-    
-}
 #emp-content {
     margin: 1em 2em 0 2em;
     color: #FFF;
@@ -254,6 +233,17 @@ img.float {
         margin: auto;
         text-align: center;
         display: block!important;
+    }
+    #mobile-title h2 {
+        -ms-word-break: break-all;
+        word-break: break-all;
+        
+        /* Non standard for WebKit */
+        word-break: break-word;
+        
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+            hyphens: auto;
     }
     .row {
         flex-direction: column;

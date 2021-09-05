@@ -1,0 +1,10 @@
+I"d<p>Jotter was created by myself, <a href="https://www.wayup.com/profile/Dan-Shafman-766d50ead7/">Dan Shafman</a>, <a href="https://github.com/Eric4Jiang">Eric Jiang</a>, and <a href="https://www.linkedin.com/in/brandon-wood-ab1212123/">Brandon Wood</a> as part of <a href="https://hackcooper.org/">Hack Cooper</a> 2016.</p>
+
+<p>The idea was born out of the frustration we had as high school students. Not enough space between the margins. We’d have teachers tell us to annotate but you can only squeeze so much in those half-inch margins, so we set out determined to find a solution.</p>
+
+<p>Jotter was a platform that allowed you to organize your notes in the cloud, not based on folders or links, but by the notes in front of you, in person. You were already referencing a text or notebook to write these in, so why not harness that location data. The product was simple, open an app, point it at a doodle you drew, and you’d be presented with whatever you told the app to associate it with, notes, documents, or a link. Think of it a little like <a href="https://en.wikipedia.org/wiki/Teeline_Shorthand">Teeline Shorthand</a> or <a href="https://en.wikipedia.org/wiki/Gregg_shorthand">Gregg</a> mixed with a QR code. Why shorten your words to a few symbols when you can shorten anything down to one unique symbol.</p>
+
+<p>The project was comprised of an IOS app, a Computer Vision backend engine, and a chrome extension. The workflow would be, a user scans a code, gets recognized, and the appropriate data was opened on your laptop where typing was easier.</p>
+
+<p>Unfortunately, this was our first 24 hackathon and we were all running on fumes when they announced it would be another 3 hours after the demo to reveal the winners, so we headed home and never found out who or what won. Although we all loved the idea midterms were around the corner and the project was abandoned.</p>
+:ET

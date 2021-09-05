@@ -1,0 +1,42 @@
+I"�<p>S.L.U.G.S (or if you’re in need of an acronym; the SeLective User Grouping System) is now the online home for BSSL employees. It allows managers to book, manage, staff, process, and bill shows. Employees also benefit from a streamlined timeclock, availability schedule, and a day of show view. All are available on their mobile device.</p>
+
+<p>From a software perspective, I created this project to get a little more leverage on understanding full-stack applications and building out systems that work to maximize efficiency and minimize hassle. My interests lie in improving life with software, and this is a very real example of that in action.</p>
+
+<p>The web app is built using Django, with integrations to Quickbooks, Google Calendar. The source is available on <a href="https://github.com/Binghamton-SSL/SLUGS">Github</a>.</p>
+
+<h2 id="v1-2020">V1 (2020)</h2>
+<p>During the beginning of the pandemic I had some extra time on my hands (when I wasn’t attending school or working at <a href="/employers/fairly/">Fairly</a>) so I got to work on the original S.L.U.G.S. It was just a “simple” Django project that I pitched to the company and the big-wigs at the SA. (Un)luckily, 2020-21 turned out to be a huge flop event wise (no clue why…) and all of the little bugs in S.L.U.G.S bothered me enough that I got to work on a V2. We used the V1 for employee training and other internal function, but it was more of a proving ground than anything.</p>
+
+<div class="photo-group">
+    <picture><source srcset="/generated/assets/img/employers/slugs/gig-old-400-85ae17680.webp 400w, /generated/assets/img/employers/slugs/gig-old-600-85ae17680.webp 600w, /generated/assets/img/employers/slugs/gig-old-800-85ae17680.webp 800w, /generated/assets/img/employers/slugs/gig-old-1000-85ae17680.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/slugs/gig-old-400-2df2cf023.png 400w, /generated/assets/img/employers/slugs/gig-old-600-2df2cf023.png 600w, /generated/assets/img/employers/slugs/gig-old-800-2df2cf023.png 800w, /generated/assets/img/employers/slugs/gig-old-1000-2df2cf023.png 1000w" type="image/png"><img src="/generated/assets/img/employers/slugs/gig-old-800-2df2cf023.png" alt=""'Gig' page""></picture>
+
+    <picture><source srcset="/generated/assets/img/employers/slugs/homepage-old-400-9e8307f29.webp 400w, /generated/assets/img/employers/slugs/homepage-old-600-9e8307f29.webp 600w, /generated/assets/img/employers/slugs/homepage-old-800-9e8307f29.webp 800w, /generated/assets/img/employers/slugs/homepage-old-1000-9e8307f29.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/slugs/homepage-old-400-f228a4c74.png 400w, /generated/assets/img/employers/slugs/homepage-old-600-f228a4c74.png 600w, /generated/assets/img/employers/slugs/homepage-old-800-f228a4c74.png 800w, /generated/assets/img/employers/slugs/homepage-old-1000-f228a4c74.png 1000w" type="image/png"><img src="/generated/assets/img/employers/slugs/homepage-old-800-f228a4c74.png" alt=""Homepage""></picture>
+
+</div>
+
+<h2 id="v2-2021">V2 (2021+)</h2>
+<p>Moving onto V2 the obvious immediate change is in the design style. Now with some better UI under my belt and the magic of Tailwind, I embarked on really making S.L.U.G.S something that our employees wanted to use, not something they had to use. I also adopted a mobile-first design workflow given the userbase will most likely do 90% of their work on the web app from their devices. This update also brought lots of user and manager friendly features like:</p>
+<ul>
+  <li>A better signup page (no duplicates)</li>
+  <li>Clock in/out for employees</li>
+  <li>Employees can request training via S.L.U.G.S</li>
+  <li>Online training signup/notification</li>
+  <li>Auto email-notification of work assignment</li>
+  <li>Ability to upload paperwork</li>
+  <li>See all your shifts worked / money earned</li>
+  <li>Open and close functionality (manager side) with one tap</li>
+  <li>Book shows through slugs</li>
+  <li>Auto-generate and print out estimates</li>
+  <li>Auto generate financial paperwork for SA office</li>
+  <li>Slicker UI/UX overall</li>
+</ul>
+
+<div class="photo-group">
+    <picture><source srcset="/generated/assets/img/employers/slugs/gig-400-ebb52ae4d.webp 400w, /generated/assets/img/employers/slugs/gig-600-ebb52ae4d.webp 600w, /generated/assets/img/employers/slugs/gig-800-ebb52ae4d.webp 800w, /generated/assets/img/employers/slugs/gig-1000-ebb52ae4d.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/slugs/gig-400-3c70bb55a.png 400w, /generated/assets/img/employers/slugs/gig-600-3c70bb55a.png 600w, /generated/assets/img/employers/slugs/gig-800-3c70bb55a.png 800w, /generated/assets/img/employers/slugs/gig-1000-3c70bb55a.png 1000w" type="image/png"><img src="/generated/assets/img/employers/slugs/gig-800-3c70bb55a.png" alt=""'Gig' page""></picture>
+
+    <picture><source srcset="/generated/assets/img/employers/slugs/homepage-400-61a5cf1ec.webp 400w, /generated/assets/img/employers/slugs/homepage-600-61a5cf1ec.webp 600w, /generated/assets/img/employers/slugs/homepage-800-61a5cf1ec.webp 800w, /generated/assets/img/employers/slugs/homepage-1000-61a5cf1ec.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/slugs/homepage-400-e925513de.png 400w, /generated/assets/img/employers/slugs/homepage-600-e925513de.png 600w, /generated/assets/img/employers/slugs/homepage-800-e925513de.png 800w, /generated/assets/img/employers/slugs/homepage-1000-e925513de.png 1000w" type="image/png"><img src="/generated/assets/img/employers/slugs/homepage-800-e925513de.png" alt=""Homepage""></picture>
+
+    <picture><source srcset="/generated/assets/img/employers/slugs/user-400-79469cbeb.webp 400w, /generated/assets/img/employers/slugs/user-600-79469cbeb.webp 600w, /generated/assets/img/employers/slugs/user-800-79469cbeb.webp 800w, /generated/assets/img/employers/slugs/user-1000-79469cbeb.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/slugs/user-400-d72a17302.png 400w, /generated/assets/img/employers/slugs/user-600-d72a17302.png 600w, /generated/assets/img/employers/slugs/user-800-d72a17302.png 800w, /generated/assets/img/employers/slugs/user-1000-d72a17302.png 1000w" type="image/png"><img src="/generated/assets/img/employers/slugs/user-800-d72a17302.png" alt=""User Page""></picture>
+
+</div>
+:ET

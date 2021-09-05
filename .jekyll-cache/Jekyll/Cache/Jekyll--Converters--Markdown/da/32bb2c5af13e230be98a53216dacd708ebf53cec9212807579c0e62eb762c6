@@ -1,0 +1,75 @@
+I"<p>I joined the <a href="https://www.fairlytax.com/">Fairly</a> team at inception and worked with them as their sole developer and general partner during my time there. Due to the large scope of my work at the company, we once agreed upon the title “The dude who handles the computers” which I say best encapsulates what I did there. Read on to hear about my various phases at the company.</p>
+
+<p>However, if you’re looking for a more comprehensive list of what I did:</p>
+<ul>
+  <li>Web Design</li>
+  <li>UI/UX</li>
+  <li>Full Stack Development (Django)</li>
+  <li>Database Administration (Postgresql)</li>
+  <li>System Architecture (both monolithic and micro-service based)</li>
+  <li>AWS
+    <ul>
+      <li>Lambda</li>
+      <li>Static (S3 bucket / Cloudfront)</li>
+      <li>Basic network administration</li>
+    </ul>
+  </li>
+  <li>Containerization</li>
+  <li>Computer Vision / OCR</li>
+  <li>Agile Scrum-leader / Project Management with a remote team</li>
+  <li>Graphic Design</li>
+  <li>Hiring &amp; Technical Screening</li>
+</ul>
+
+<p><br /></p>
+<h2 id="mvp">MVP</h2>
+<p>When Jay &amp; James first called me, they just had an idea and a few screenshots of what the site should provide. I immediately knew this was right up my alley, allowing me not only to work on designing out a product for them but also creating a brand identity for the company to grow into. Although I’m no graphic designer, it’s always a fun exercise and even better to see it to fruition. In less than a month, we worked long nights while I was still a full-time student to bring their idea to life and launch an MVP serving upstate New York. Below are some images of the finalized MVP site launched. Not my finest work but we all have to start somewhere 🙃.</p>
+
+<div class="photo-group">
+    <picture><source srcset="/generated/assets/img/employers/fairly/mvp-homepage-400-ad153f2ba.webp 400w, /generated/assets/img/employers/fairly/mvp-homepage-600-ad153f2ba.webp 600w, /generated/assets/img/employers/fairly/mvp-homepage-800-ad153f2ba.webp 800w, /generated/assets/img/employers/fairly/mvp-homepage-1000-ad153f2ba.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/fairly/mvp-homepage-400-fc39b99f5.png 400w, /generated/assets/img/employers/fairly/mvp-homepage-600-fc39b99f5.png 600w, /generated/assets/img/employers/fairly/mvp-homepage-800-fc39b99f5.png 800w, /generated/assets/img/employers/fairly/mvp-homepage-1000-fc39b99f5.png 1000w" type="image/png"><img src="/generated/assets/img/employers/fairly/mvp-homepage-800-fc39b99f5.png" alt=""MVP Homepage""></picture>
+
+    <picture><source srcset="/generated/assets/img/employers/fairly/ownerpage-400-198567760.webp 400w, /generated/assets/img/employers/fairly/ownerpage-600-198567760.webp 600w, /generated/assets/img/employers/fairly/ownerpage-800-198567760.webp 800w, /generated/assets/img/employers/fairly/ownerpage-1000-198567760.webp 1000w" type="image/webp"><source srcset="/generated/assets/img/employers/fairly/ownerpage-400-f286f9bc6.png 400w, /generated/assets/img/employers/fairly/ownerpage-600-f286f9bc6.png 600w, /generated/assets/img/employers/fairly/ownerpage-800-f286f9bc6.png 800w, /generated/assets/img/employers/fairly/ownerpage-1000-f286f9bc6.png 1000w" type="image/png"><img src="/generated/assets/img/employers/fairly/ownerpage-800-f286f9bc6.png" alt=""Property Detail Page""></picture>
+
+</div>
+
+<p><br /></p>
+<h2 id="v1-product">V1 Product</h2>
+<p>In the fall of 2020, I was contracted to work on a full-fledged product after a successful MVP. I worked closely with James and Jay to rebrand and build out our systems to scale from 150,000 to millions of homes. A large part of this development was the internal tooling we would be used to process cases in a semi-automated fashion. I even did some exploratory work on automated document processing. We realized in the trenches of development that we only had a good consumer-facing product, but that our tooling would be useful to anyone in the industry. At this time the company pivoted to working with commercial properties.</p>
+
+<p style="font-size: 100%; text-align: center;">Imagine some awesome screenshots of the product here. However, I won’t show them due to the active nature of the project</p>
+
+<p><br /></p>
+<h2 id="v2-product">V2 Product</h2>
+<p><span style="font-size: 1.25rem;"><strong><em>Unfortunately I am going to intentionally vague in this paragraph out of respect to the ongoing development of this product (even though I am no longer working on it)</em></strong></span></p>
+
+<p>Going into the spring of 2021 I took off from school for the semester to pursue a full-time co-op working with Fairly. I helped singlehandedly develop the backbone of our infrastructure, worked on internal and external tooling and sites, and did some awesome UI/UX research, and made some cool designs that I wish I could share 😐 (and hopefully can soon). During this time some of my favorite projects included</p>
+<ul>
+  <li>Going off the deep-end with multi-tenancy options and implementations</li>
+  <li>Working on tweaking the TaiwlindUI framework to meet my perfectionist UI goals and crushing the expectations of what css animations can deliver for interactive UIs</li>
+</ul>
+
+<div class="photo-group">
+    <img alt="CSS Only animated filter" src="/assets/img/employers/fairly/css-filter.gif"/>
+</div>
+<p style="font-size: 100%; text-align: center; margin: .5rem">Shh 🤫, don’t tell anyone I showed you this (I’m kidding this is all fair play)</p>
+<ul>
+  <li>Creating a robust 2FA system</li>
+  <li>Working with an off-site team to bring them up to speed and implement work going forward (a nice intro to PM’ing)</li>
+  <li>Doing a deep dive into web performance and accessibility (something I am now a strong advocate for) and seeing this awesome lighthouse report</li>
+</ul>
+
+<div class="photo-group">
+    <img alt="All 100's lighthouse report" style="max-width: 40rem" src="/assets/img/employers/fairly/testing-100.gif"/>
+</div>
+<p style="font-size: 100%; text-align: center; margin: .5rem">I can’t show you the page but I promise this isn’t even cheating this was a demanding page.</p>
+
+<p><br /><br /><br />
+Trust me I have a whole bag of goodies I cannot wait to share from this project, but out of respect for the hard work the guys are currently doing, I’m going to hold off for a while till the ball gets rolling. That being said, I couldn’t not leave you with one of my newer designs for the homepage. Even if it is pixellated.</p>
+
+<div class="photo-group">
+    <img alt="All 100's lighthouse report" src="/assets/img/employers/fairly/homepage-new.png"/>
+</div>
+<p><br /></p>
+
+<p><strong>If you’re interested in working with me on a project and would like to hear and see more of what I did for Fairly, <a href="mailto:hi@joebabbitt.com">reach out</a> to set up a call and I’m sure I can share some more of what I worked on.</strong></p>
+:ET
