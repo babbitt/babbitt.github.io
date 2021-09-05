@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<div id="award-details">
+    <div style="background-image: url('{{ page.image }}');" class="badge-ribbon">
+    </div>
+    <div id="info"><h1>{{ page.name }}</h1><h4>{{ page.org }}</h4> <h5>{{ page.date | date: '%B %Y'}}</h5> {% if page.prize %} <h6>Prize: {{page.prize}}</h6> {% endif %}</div>
+    <div id="mobile-title">
+        <h2>
+            {{ page.name }}
+        </h2>
+        <h3>{{ page.org }}</h3>
+        {% if page.prize %}
+        <h5>
+            Prize: $4,000
+        </h5>
+        {% endif %}
+        <h6>
+            <b>{{ page.date | date: '%B %Y'}}</b>
+        </h6>
+    </div>
+</div>
+<div id="award-content" style="color:#000">
+    {{ content }}
+</div>

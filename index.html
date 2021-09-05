@@ -1,0 +1,174 @@
+---
+layout: default
+title: "Home"
+---
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<div id="hero">
+    <h1>Hi there,</h1>
+    <h2>Pleasure to meet you.<br>
+        Click around, scroll down, or <a style="color: inherit;" href="/resume">check out my resume</a> to learn more about me.<br>
+        So I can learn about you, please reach out. I'm available all over the place.</h2>
+    <div id="social">
+        <a href="mailto:hello@joeBabbitt.com"><i class="far fa-envelope"
+                aria-hidden="true"></i></a>
+        <a href="https://linkedin.com/in/joebabbitt"><i class="fab fa-linkedin"
+                aria-hidden="true"></i></a>
+        <a href="https://github.com/babbitt"><i class="fab fa-github-square"
+                aria-hidden="true"></i></a>
+        <a href="https://instagram.com/joseph.babbitt"><i class="fab fa-instagram"
+                aria-hidden="true"></i></a>
+        <a class="tooltip" href="https://www.snapchat.com/add/joe789101112"><i
+                class="fab fa-snapchat-square" aria-hidden="true"></i><span>
+                    {% picture jpt-webp "/assets/img/social/snapcode.png" --alt "snapcode" style="box-shadow: black 5px 5px 15px 0px;border-radius: 17%;" %}
+                </span></a>
+        <a class="tooltip" href="https://m.me/babbittJoe"><i
+                class="fab fa-facebook-messenger" aria-hidden="true"></i><span>
+                    {% picture jpt-webp "/assets/img/social/messengerCode.jpg" --alt "Facebook Messenger Code" style="border-radius: 100%;box-shadow: black 12px 8px 15px 0px;" %}
+                </span></a>
+    </div>
+    <div id="selection">
+        <a onclick="goSmooth(event)" href="#APerson">A Person</a>
+        <a onclick="goSmooth(event)" href="#AProgrammer">A Programmer</a>
+        <a onclick="goSmooth(event)" href="#AStudent">A Student</a>
+    </div>
+    <div id="continue"><i class="fas fa-sort-down"></i></div>
+    <img alt="Logo" class="logo full" src="assets/img/logo.svg"/>
+    <img alt="Logo Outline" class="logo" src="assets/img/logo-outline.svg"/>
+</div>
+<div id="stickyNav">
+    <div class="nav-name">Joe Babbitt.</div><div id="section-name"></div>
+</div>
+<div id="content">
+    <div class="section" id="APerson">
+        <div class="row">
+            <div style="background-image: url('/assets/img/person/me.jpg');" class="four columns me-img">
+                {% picture jpt-webp "assets/img/person/me-noface.jpg" --alt "A photo of Joe Babbitt next to a robot" id="me-photo" %}
+            </div>
+            <div class="eight columns copy">
+                <h1>A Person</h1>
+                <h5>I'm Joe, and right now I'm figuring out what exactly I'll be doing.</h5>
+                <p>
+                    I'm currently a junior at Binghamton University studying CS, with interests in Anthropology, Robotics, and Human Computer Interaction.
+                </p>
+                <p style="margin-bottom: 0;">Learn about some of the things I do in my free time (that aren't related to computers, you can read about in the next section)</p>
+                <div class="org-row">
+                    {% for org in site.nontechnical reversed %}
+                        <a href="{{org.url}}">
+                            <div class="organization">
+                                <img src="{{org.logo}}" alt="{{org.logo-alt}}" />
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+                <p style="margin: 5px 0;">
+                    Even if I don't know exactly what comes next, I've tried to make the most of the last <span id="yearsAlive">20</span> years. I hate bragging but this is a portfolio website, so feel free to click around my trophy cabinet.
+                </p>
+                <div style="width: 100%;">
+                    <div id="award-cabinet-rotate" style="max-width: calc({{site.awards | size}} * 13rem); margin: auto">
+                        <div id="award-cabinet">
+                            <div id="top-lip"></div>
+                            <div style="display: flex;">
+                                <div id="inside-lip"></div>
+                                <div id="awards">
+                                    {% for award in site.awards reversed %}
+                                        <a href="{{award.url}}"><div style="background-image: url('{{award.image}}');" class="badge-ribbon">
+                                        </div></a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- <p>
+                    But I digress... There's lot more I've done, but it's all neatly organized in two other sections below. Let us continue?
+                </p> -->
+            </div>
+        </div>
+    </div>
+    <div class="section" id="AProgrammer">
+        <div class="row">
+            <div class="eight columns">
+                <h1>A Programmer</h1>
+                <h5>Using computers to enhance our lives is a passion of mine, and I'm lucky enough to make it my major and career too.</h5>
+                <h4>Employment</h4>
+                <div class="emp-row">
+                    {% for employer in site.employers reversed %}
+                        <a href="{{employer.url}}">
+                            <div empId="{{employer.empId}}" class="employer" onmouseenter="showSelection(event)" onmouseleave="hideSelection(event)">
+                                <img src="{{employer.logo}}" alt="{{employer.logo-alt}}" />
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+                <div id="projects">
+                    <h4 style="margin-top: 2rem;">Projects</h4>
+                    <div id="hackathon-projects">
+                        <h5>Hackathons</h5>
+                        <div class="project-grid">
+                            {% for project in site.hackathon-projects reversed %}
+                                <a href="{{project.url}}">
+                                    <div class="project">
+                                        <img src="{{project.logo}}" alt="{{project.logo-alt}}"/>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div id="personal-projects">
+                        <h5>Personal Projects</h5>
+                        <div class="project-grid">
+                            {% assign otherProjects = site.personal-projects | concat: site.academic-projects | sort:"date" %}
+                            {% for project in otherProjects reversed %}
+                                <a href="{{project.url}}">
+                                    <div class="project">
+                                        <img src="{{project.logo}}" alt="{{project.logo-alt}}"/>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <!-- <div id="hardware-projects">
+                        <h5>Hardware Projects</h5>
+                        <div class="project-grid">
+                            <a href="/projects/subwall">
+                                <div class="project">
+                                    <img src="/assets/img/programmer/projects/duit.svg" alt="SubWall."/>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div style="margin: 0;" id="reading-pane" class="four columns">
+                <!-- <div class="rp-div" id="rp-default"></div> -->
+                {% for employer in site.employers reversed %}
+                    <div class="rp-div" style="background-image: url({{employer.cover-photo}});" empId="{{employer.empId}}"></div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="section" id="AStudent">
+        <a href="{% link _education/brooklyn-tech.md %}" class="four columns institution">
+            <div id="tech-background">
+                <img alt="Brooklyn Tech" src="/assets/img/student/tech.svg"/>
+                <h3>Brooklyn Tech</h3>
+            </div>
+        </a>
+        <a href="{% link _education/binghamton.md %}" class="four columns institution">
+            <div id="binghamton-background">
+                <img alt="Binghamton University" src="/assets/img/student/bing.svg"/>
+                <h3>Binghamton University</h3>
+            </div>
+        </a>
+        <div class="four columns copy">
+            <h1>A Student</h1>
+            <p>Currently I attend Binghamton University where I study Computer Science. Recently I've taken to gaining a better understanding of the world that we create around us, and have been studying the 'UX' of our world under the larger guise of Anthropology and Philosophy.</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="/assets/js/textfit.js"></script>
+<script src="/assets/js/index.js"></script>
