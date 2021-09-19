@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Binghamton University" />
 <script type="application/ld+json">
-{"description":"I currently attend the College of Engineering at Binghamton University where I am majoring in Computer Science. Just to get it out of the way, here’s some coursework I’ve taken you may be wondering about: Programming &amp; Hardware Fundamentals (Compilers &amp; Low-Level Programming) Programming with Objects &amp; Data Structures (Object Oriented Programming) Data Structures &amp; Algorithms (Algorithms + Data Structures) Architecture from a Programmers Perspective (Architecture)","url":"https://joebabbitt.com/education/binghamton/","headline":"Binghamton University","dateModified":"2019-08-01T00:00:00-04:00","datePublished":"2019-08-01T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://joebabbitt.com/education/binghamton/"},"@context":"https://schema.org"}</script>
+{"description":"I currently attend the College of Engineering at Binghamton University where I am majoring in Computer Science. Just to get it out of the way, here’s some coursework I’ve taken you may be wondering about: Programming &amp; Hardware Fundamentals (Compilers &amp; Low-Level Programming) Programming with Objects &amp; Data Structures (Object Oriented Programming) Data Structures &amp; Algorithms (Algorithms + Data Structures) Architecture from a Programmers Perspective (Architecture)","headline":"Binghamton University","dateModified":"2019-08-01T00:00:00-04:00","datePublished":"2019-08-01T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://joebabbitt.com/education/binghamton/"},"url":"https://joebabbitt.com/education/binghamton/","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -46,6 +46,7 @@
         <div id="name">
             Binghamton University
         </div>
+        <div style="top: 90vh" class="placehold-color"></div>
     </div>
     <div style="width: 100%; padding: 3rem;">
         <div class="metadata">
@@ -93,6 +94,8 @@
 }
 #school-name {
     width: 10vh;
+    display: flex;
+    flex-direction: column;
 }
 .placehold-color {
     top: 0;
@@ -104,7 +107,9 @@
 }
 .school_container #name {
     position: fixed;
-    height: 90vh;
+    top: 10vh;
+    left: 0;
+    height: 80vh;
     width: 10vh;
     color: white;
     writing-mode: vertical-lr;

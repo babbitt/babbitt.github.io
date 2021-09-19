@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Brooklyn Technical High School" />
 <script type="application/ld+json">
-{"description":"Brooklyn Technical High School, or just Tech, is the largest high school in America with over 6,000 students and a single building campus spanning a full city block situated in Fort Greene, minutes from Downtown Brooklyn.","url":"https://joebabbitt.com/education/brooklyn-tech/","headline":"Brooklyn Technical High School","dateModified":"2015-09-01T00:00:00-04:00","datePublished":"2015-09-01T00:00:00-04:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://joebabbitt.com/education/brooklyn-tech/"},"@context":"https://schema.org"}</script>
+{"description":"Brooklyn Technical High School, or just Tech, is the largest high school in America with over 6,000 students and a single building campus spanning a full city block situated in Fort Greene, minutes from Downtown Brooklyn.","headline":"Brooklyn Technical High School","dateModified":"2015-09-01T00:00:00-04:00","datePublished":"2015-09-01T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://joebabbitt.com/education/brooklyn-tech/"},"url":"https://joebabbitt.com/education/brooklyn-tech/","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -46,6 +46,7 @@
         <div id="name">
             Brooklyn Technical High School
         </div>
+        <div style="top: 90vh" class="placehold-color"></div>
     </div>
     <div style="width: 100%; padding: 3rem;">
         <div class="metadata">
@@ -80,6 +81,8 @@
 }
 #school-name {
     width: 10vh;
+    display: flex;
+    flex-direction: column;
 }
 .placehold-color {
     top: 0;
@@ -91,7 +94,9 @@
 }
 .school_container #name {
     position: fixed;
-    height: 90vh;
+    top: 10vh;
+    left: 0;
+    height: 80vh;
     width: 10vh;
     color: white;
     writing-mode: vertical-lr;
