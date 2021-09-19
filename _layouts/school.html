@@ -7,6 +7,7 @@ layout: page
         <div id="name">
             {{page.name}}
         </div>
+        <div style="top: 90vh" class="placehold-color"></div>
     </div>
     <div style="width: 100%; padding: 3rem;">
         <div class="metadata">
@@ -36,6 +37,8 @@ layout: page
 }
 #school-name {
     width: 10vh;
+    display: flex;
+    flex-direction: column;
 }
 .placehold-color {
     top: 0;
@@ -47,7 +50,9 @@ layout: page
 }
 .school_container #name {
     position: fixed;
-    height: 90vh;
+    top: 10vh;
+    left: 0;
+    height: 80vh;
     width: 10vh;
     color: white;
     writing-mode: vertical-lr;

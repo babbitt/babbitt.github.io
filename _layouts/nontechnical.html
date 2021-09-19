@@ -1,10 +1,10 @@
 ---
 layout: page
 ---
-
+{% assign ifAn = page.job | slice: 0, 1 %}
 <div id="emp-container">
     <img src="{{page.logo}}"/ alt="{{page.logo-alt}}">
-    <h1>A {{page.job}} @ {{page.org}}</h1><h5>{{page.dates}}</h5>
+    <h1>{% if ifAn == "A"%}An {% else %}A{% endif %} {{page.job}} @ {{page.org}}</h1><h5>{{page.dates}}</h5>
     <div id="mobile-title">
         <h2>
             {{page.org}}

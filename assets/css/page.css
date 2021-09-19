@@ -119,6 +119,7 @@ nav:hover img{
 #emp-container img {
     margin: auto 0 0 0;
     width: 15rem;
+    height: 15rem;
 }
 #emp-container h1, #emp-container h4 ,#emp-container h5 {
     margin: auto 0 0 .5em;
@@ -135,6 +136,7 @@ nav:hover img{
 #project-details img {
     margin: auto 0 0 0;
     width: 15rem;
+    height: 15rem;
 }
 #project-details h1, #project-details h4 ,#project-details h5 {
     margin: auto 0 0 1rem; /*3rem*/
@@ -189,6 +191,7 @@ img.float {
 @media (max-width: 750px) {
     #emp-container img {
         width: 15rem;
+        height: 15rem;
         margin: 0px;
         margin-bottom: 0px;
     }
@@ -200,6 +203,7 @@ img.float {
     }
     #award-details img {
         width: 15rem;
+        height: 15rem;
         margin: 0px;
         margin-bottom: 0px;
     }
@@ -214,6 +218,7 @@ img.float {
     }
     #project-details img {
         width: 15rem;
+        height: 15rem;;
         margin: 0px;
         margin-bottom: 0px;
     }
