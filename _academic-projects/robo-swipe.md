@@ -14,7 +14,7 @@ images:
 
 section: "/#AProgrammer"
 title: Roboswipe
-backgroundColor: '#4399FF'
+backgroundColor: '#095696'
 text-color: '#000'
 ---
 
