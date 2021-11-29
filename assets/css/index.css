@@ -278,12 +278,33 @@
     column-gap: 1rem;
     row-gap: 1rem;
 }
+.project-grid > *:hover {
+    color: white!important;
+}
 .project {
     width: 10rem;
     height: 10rem;
     transition: box-shadow .2s;
     border-radius: 2px;
+    position: relative;
 }
+
+.project.has_award::after {
+    content: var(--award-name);
+    position: absolute;
+    background-color: #00AEEF;
+    top: 1.5rem;
+    right: -2.6rem;
+    transform: rotate(45deg);
+    border-left: 2.1rem #00AEEF solid;
+    border-right: 2.1rem #00AEEF solid;
+    border-radius: 76% 76% 10px 10px;
+    box-shadow: black 0px 2px 4px 0px;
+}
+.project.has_award:hover {
+    color: white!important;
+}
+
 .project img {
     width: 100%;
     border-radius: 2px;
