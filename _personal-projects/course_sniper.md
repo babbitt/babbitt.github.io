@@ -22,5 +22,5 @@ Some improvements include:
 * Complete code refactor, decreasing repo size by 85%
 * Easy command-line interface
 * Ability to receive registration updates through various providers
-    * [https://www.pushbullet.com/](PushBullet)
-    * [https://notify.run/](Notify.run)
+    * [PushBullet](https://www.pushbullet.com/)
+    * [Notify.run](https://notify.run/)

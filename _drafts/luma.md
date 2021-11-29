@@ -6,16 +6,16 @@ dates: September 2021
 logo: '/assets/img/person/nontechnical/luma/LUMAlogo.svg'
 layout: nontechnical
 section: "/#APerson"
+images: 
+    - {image: "/assets/img/person/nontechnical/luma/lumacontrols.jpg", alt: "WATCHOUT Control Panel at Firefly by LightHarvest"}
 
 title: LUMA
-backgroundColor: '#000'
+backgroundColor: '#231F20'
 
 ---
-
-In the spring of 2019 I became involved in our campus radio station, Harpur Radio Workshop, better known by its callsign, WHRW. WHRW was started in the 1950s by a loose group of students and in the time since has blossomed into a 150+ member strong autonomous organization. We are one of few free-form radio stations, meaning that we have no obligations to advertisers (we have none), management, or any other external source (besides abiding by FCC regulations). Whoever is at the board is in control of what goes on air and no one else. We are also a physical-media-only station, meaning that our entire library is either on vinyl, cd, tape, cassette, or some other physical media that sits in our record library, the largest private collection in the north-east. We “keep it lit” 24/7, tune in @ [whrw.fm](https://whrw.fm/).
-
-My involvement with the station began when I was approached to help out on the internal “tech team”. The team is responsible for the technology in the station (transmitters, DJ equipment, computers, servers, etc) and works to improve the station for our member-base. Since I wasn’t a licensed engineer yet, the title of “A guy” was born given my status-less status as a member.
-
-I would later continue my title's legacy as I worked closely with our Music Director (MD) in planning the logistics of our annual music festival, [Moefest](https://whrw.fm/moefest/), due to my [involvement @ BSSL]({% link _nontechnical/bssl.md %}). Given the COVID-19 pandemic, Moefest 2021 was entirely online. I worked closely with the MD to help stream Moefest directly from the station, balancing COVID safety with keeping the spirit of Moe alive and the speakers blasting all across campus and the world. The event would ultimately span almost 13 hours, and draw (virtual) crowds in the thousands. On the WHRW side I was the logistics “guy” working with our in-house AV team on streaming, helping load in/out bands, and provide communication between myself in the control room and our admin team off-site. Check out some photos below, it was an awesome event!
-
-Simultaneously, I was also apprenticing to become a cleared radio Engineer. After a semester, I took the FCC/WHRW clearance exam, and was granted the title of “Cleared Engineer.” I plan on pursuing a show this coming semester (Fall 2021) and look forward to playing some great music and maybe even having some guest sets. Keep it locked to hear more about that as the semester progresses.
+<div style="display: flex; margin: 1rem;">
+    <div style="display:flex; flex-direction: column; max-width: 30%; margin: auto 0 auto auto">
+    <img alt="CSS Only animated filter" src="/assets/img/person/nontechnical/luma/lumacrowd.jpg"/>
+    <iframe style="width: 100%;" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mt6tvoLAjYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>

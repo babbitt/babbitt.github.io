@@ -8,6 +8,7 @@ devpost: https://devpost.com/software/walk-to
 name: Walk-To
 project-type: Hackathon Project
 status: Abandoned
+award: 2nd Place
 
 section: "/#AProgrammer"
 title: Walk-To

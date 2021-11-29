@@ -108,7 +108,7 @@ title: "Home"
                         <div class="project-grid">
                             {% for project in site.hackathon-projects reversed %}
                                 <a href="{{project.url}}">
-                                    <div class="project">
+                                    <div class="project {% if project.award %}has_award" style="--award-name: '{{project.award}}';" {% else %}"{% endif %}>
                                         <img src="{{project.logo}}" alt="{{project.logo-alt}}"/>
                                     </div>
                                 </a>

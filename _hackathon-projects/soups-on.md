@@ -4,6 +4,7 @@ logo: '/assets/img/projects/hackathon/soups-on/logo.svg'
 logo-alt: "Soup's On Logo"
 date: May 2019
 devpost: https://devpost.com/software/soup-s-on
+award: "2nd Place"
 
 name: Soup's On
 project-type: Hackathon Project
