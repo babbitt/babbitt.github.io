@@ -24,10 +24,11 @@ I currently attend the College of Engineering at Binghamton University where I a
 * Architecture from a Programmers Perspective (Architecture)
 
 some other courses I've thoroughly enjoyed but not as applicable to my career include: 
-* Ethical Societal & Global Issues Computing
+* Ethical Societal & Global Issues in Computing
 * Philosophical Law & Justice
 * Intro to Anthropology
 * Scuba
 * Yiddish
+* Film Photography
 
 I attempt to use my time here as an experiment to not only see what I may be doing in my career, but what other budding interests I have and how I can fold them into my passion. As you may be able to tell I'm a big fan of not only computing, but how we interact with computing, both from a philosophical, and physiological perspective. I hope to find some free time and think more broadly about how this impacts not only the work we do as Software Engineers but also as consumers and users of the products we create.
