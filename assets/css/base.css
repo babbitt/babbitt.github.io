@@ -39,6 +39,11 @@ nav:hover img{
     text-align: center;
     height: fit-content;
 }
+
+code {
+    color: black
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
