@@ -3,7 +3,7 @@ job: Tech Director Volunteer
 org: LUMA
 date: September 2021
 dates: September 2021
-logo: '/assets/img/person/nontechnical/luma/LUMAlogo.svg'
+logo: '/assets/img/person/nontechnical/luma/lumalogo.svg'
 layout: nontechnical
 section: "/#APerson"
 
