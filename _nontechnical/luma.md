@@ -26,6 +26,11 @@ Working under my Technical Director, a local IT professional, and a team of loca
 
 The experience was truly mesmerizing, but even more-so was once showtime was upon us. I found myself watching the performance less and focusing more on the audience. Seeing the artists reaction to his work on it's intended canvas was also equally fulfilling and made all the sleepless nights more stomachable. 
 
-Given the local nature of the project the marketing machine moves slow so I've substituted a video of the piece I was apart of for the year former, but hope to have a video soon. The photos are from the 2021 production and are entirely unedited (I told you you just gotta be there).
+Below you'll find the official video of the project I worked on, Firefly. Enjoy!
 
-<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/4dPftOgsvJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube-nocookie.com/embed/4dPftOgsvJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<video style="max-width: 100%" width="560" height="315" controls>
+  <source src="/assets/video/luma2021.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<sub>The video below is at full quality so it buffers quite a bit, sorry!</sub>

@@ -57,7 +57,5 @@ Moving onto V2 the obvious immediate change is in the design style. Now with som
 Future Joe here, wanted to throw some notable updates on the project in here!
 Thanks to a successful return to in person instruction, we've been busier than ever. We've grown our employee-base to ~100 (with over 100 users of the site) and used it as our backbone infrastructure for the Fall semester processing 50+ shows. 
 
-I started a `CHANGELOG.md` file shortly after writing the original article, and man has SLUGS evolved...
- <!-- IFRAME of CHAANGELOG -->
-
+I started a [`CHANGELOG.md`](https://raw.githubusercontent.com/Binghamton-SSL/SLUGS/master/CHANGELOG.md) file shortly after writing the original article, and man has SLUGS evolved...
 It's been a truly unique experience to write software for an in house endevour I'm personally involved in, as well as having the opportunity to so intensely "dogfood" my own software. My board members have been incredibly understanding through more than one "damn that's a cool idea SLUGS is gonna be down for 5 min let me add that" moments. Being able to move fast and not worrying about nailing down functionality has allowed us to expand SLUGS use cases and dramatically improved our workflow as well as made us better managers.

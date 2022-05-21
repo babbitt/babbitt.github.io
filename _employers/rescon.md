@@ -6,7 +6,7 @@ logo-alt: "Binghamton University Logo"
 empId: binghamton
 company-name: Binghamton University
 date: August 2020
-dates: Fall 2020 - Present
+dates: Fall 2020 - Spring 2022
 job: Residential Computer Consultant
 
 section: "/#AProgrammer"
