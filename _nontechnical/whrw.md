@@ -2,7 +2,7 @@
 job: Cleared Radio Engineer, DJ & "A guy"
 org: WHRW
 date: September 2020
-dates: Fall 2020 - Present
+dates: Fall 2020 - May 2023
 logo: '/assets/img/person/nontechnical/whrw/logo.svg'
 layout: nontechnical
 section: "/#APerson"
@@ -22,4 +22,4 @@ My involvement with the station began when I was approached to help out on the i
 
 I would later continue my title's legacy as I worked closely with our Music Director (MD) in planning the logistics of our annual music festival, [Moefest](https://whrw.fm/moefest/), due to my [involvement @ BSSL]({% link _nontechnical/bssl.md %}). Given the COVID-19 pandemic, Moefest 2021 was entirely online. I worked closely with the MD to help stream Moefest directly from the station, balancing COVID safety with keeping the spirit of Moe alive and the speakers blasting all across campus and the world. The event would ultimately span almost 13 hours, and draw (virtual) crowds in the thousands. On the WHRW side I was the logistics “guy” working with our in-house AV team on streaming, helping load in/out bands, and provide communication between myself in the control room and our admin team off-site. Check out some photos below, it was an awesome event!
 
-Simultaneously, I was also apprenticing to become a cleared radio Engineer. After a semester, I took the FCC/WHRW clearance exam, and was granted the title of “Cleared Engineer.” I plan on pursuing a show this coming semester (Fall 2021) and look forward to playing some great music and maybe even having some guest sets. Keep it locked to hear more about that as the semester progresses.
+Simultaneously, I was also apprenticing to become a cleared radio Engineer. After a semester, I took the FCC/WHRW clearance exam, and was granted the title of “Cleared Engineer.” In the Fall of 2021 I hosted my own show (Good Soup) and continued the tradition with my own apprentices. Although I would remain involved via WHRW's tech team and board, Good Soup would ultimately be my only show due to time constraints.

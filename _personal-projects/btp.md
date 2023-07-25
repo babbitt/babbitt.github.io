@@ -3,11 +3,11 @@ layout: project
 logo: '/assets/img/projects/personal/BTP.svg'
 logo-alt: "Binghamton Trading Post"
 date: August 2021
-website: "http://bingtra.de/"
+# website: "http://bingtra.de/"
 
 name: Binghamton Trading Post
 project-type: Personal Project
-status: Maintained
+status: Abandoned
 images: 
     - {image: "/assets/img/projects/personal/BTP/add_page.png", alt: "BTP Addition Form"}
     - {image: "/assets/img/projects/personal/BTP/item_page.png", alt: "BTP Listing Page"}

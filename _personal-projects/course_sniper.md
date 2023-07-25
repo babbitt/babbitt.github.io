@@ -7,7 +7,7 @@ github: "https://github.com/babbitt/BingCourseSniper"
 
 name: Binghamton Course Sniper
 project-type: Personal Project
-status: Maintained
+status: Looking for Contributors
 
 section: "/#AProgrammer"
 title: Binghamton Course Sniper

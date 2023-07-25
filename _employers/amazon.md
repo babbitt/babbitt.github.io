@@ -14,6 +14,4 @@ title: Amazon
 backgroundColor: '#232f3e'
 ---
 
-🎉 I'm proud to announce that this summer I'll be working at Amazon as a Software Engineering Intern under the devices umbrella. I'll have a rundown of what I worked on pending release at the end of this summer.
-
-<sub>Bring on the rain seattle, y'all got nothing on Binghamton</sub>
+I spent the summer of 2022 living and working in Seattle at Amazon's corporate headquarters. Working on a subset of the devices division called MAKO (Multi-Architecture Knowledge Organzation) I helped the ML team by developing an internal tool to track experiments they launched. Working not only with my mentor and manager, but also our entire team; we cooperatively designed and built a tool that provided additional insights into experiments and created a visual language that can be used across systems. The result was a site that increased informational availability when out of the office, and took finding out critical details during an emergency from a chore that took valuable minutes to seconds.

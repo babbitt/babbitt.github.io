@@ -18,7 +18,7 @@ S.L.U.G.S (or if you're in need of an acronym; the Sound & Lighting User Groupin
 
 From a software perspective, I created this project to get a little more leverage on understanding full-stack applications and building out systems that work to maximize efficiency and minimize hassle. My interests lie in improving life with software, and this is a very real example of that in action.
 
-The web app is built using Django, with integrations to Quickbooks & Google Calendar. The source code is available on [Github](https://github.com/Binghamton-SSL/SLUGS).
+The web app is built using Django. The source code is available on [Github](https://github.com/Binghamton-SSL/SLUGS).
 
 ## V1 (2020)
 During the beginning of the pandemic I had some extra time on my hands (when I wasn't attending school or working at [Fairly]({% link _employers/fairly.md  %})) so I got to work on the original S.L.U.G.S. It was just a "simple" Django project that I pitched to the company and the big-wigs at the SA. (Un)luckily, 2020-21 turned out to be a huge flop event wise (no clue why...) and all of the little bugs in S.L.U.G.S bothered me enough that I got to work on a V2. We used the V1 for employee training and other internal functions, but it was more of a proving ground than anything.
