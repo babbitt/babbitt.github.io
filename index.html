@@ -40,12 +40,12 @@ title: "Home"
 <div id="content">
     <div class="section" id="APerson">
         <div class="row">
-            <div style="background-image: url('/assets/img/person/me.jpg');" class="four columns me-img">
-                {% picture jpt-webp "assets/img/person/me-noface.jpg" --alt "A photo of Joe Babbitt next to a robot" id="me-photo" %}
+            <div class="four columns me-img">
+                {% picture jpt-webp "assets/img/person/mefilm.jpg" --alt "A photo of Joe Babbitt on 35mm film" id="me-photo" %}
             </div>
             <div class="eight columns copy">
                 <h1>A Person</h1>
-                <h5>I'm Joe, and right now I'm figuring out what exactly I'll be doing.</h5>
+                <h5>I'm Joe, a software engineer  in NYC.</h5>
                 <p>
                     I've just received my Bachelors in Computer Science, and have spent the last few years working on my craft as well as picking up some new ones when not sat in front of a computer.
                 </p>
@@ -60,7 +60,7 @@ title: "Home"
                     {% endfor %}
                 </div>
                 <p style="margin: 5px 0;">
-                    Even if I don't know exactly what comes next, I've tried to make the most of the last <span id="yearsAlive">20</span> years. I hate bragging but this is a portfolio website, so feel free to click around my trophy cabinet.
+                    I hate bragging but this is a portfolio website, so feel free to click around my trophy cabinet.
                 </p>
                 <div style="width: 100%;">
                     <div id="award-cabinet-rotate" style="max-width: calc({{site.awards | size}} * 13rem); margin: auto">
@@ -88,7 +88,7 @@ title: "Home"
         <div class="row">
             <div class="eight columns">
                 <h1>A Programmer</h1>
-                <h5>Using computers to enhance our lives is a passion of mine, and I'm lucky enough to make it my major and career too.</h5>
+                <h5>Using computers to enhance our lives is a passion of mine, and I'm lucky enough to make it my career too.</h5>
                 <h4>Employment</h4>
                 <div class="emp-row">
                     {% for employer in site.employers reversed %}
@@ -101,6 +101,18 @@ title: "Home"
                 </div>
                 <div id="projects">
                     <h4 style="margin-top: 2rem;">Projects</h4>
+                    <div id="open-source-projects">
+                        <h5>Open Source</h5>
+                        <div class="project-grid">
+                            {% for project in site.open-source reversed %}
+                                <a href="{{project.url}}">
+                                    <div class="project {% if project.award %}has_award" style="--award-name: '{{project.award}}';" {% else %}"{% endif %}>
+                                        <img src="{{project.logo}}" alt="{{project.logo-alt}}"/>
+                                    </div>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
                     <div id="hackathon-projects">
                         <h5>Hackathons</h5>
                         <div class="project-grid">
@@ -140,8 +152,10 @@ title: "Home"
             </div>
             <div style="margin: 0;" id="reading-pane" class="four columns">
                 <!-- <div class="rp-div" id="rp-default"></div> -->
-                {% for employer in site.employers reversed %}
-                    <div class="rp-div" style="background-image: url({{employer.cover-photo}});" empId="{{employer.empId}}"></div>
+                {% assign uniq_employers = site.employers | map: "empId" | uniq %}
+                {% for employer in uniq_employers %}
+                    {% assign emp = site.employers | where: "empId", employer | last %}
+                    <div class="rp-div" style="background-image: url({{emp.cover-photo}});" empId="{{emp.empId}}"></div>
                 {% endfor %}
             </div>
         </div>
@@ -161,7 +175,7 @@ title: "Home"
         </a>
         <div class="four columns copy">
             <h1>A Student</h1>
-            <p>Currently I attend Binghamton University where I study Computer Science. Recently I've taken to gaining a better understanding of the world that we create around us, and have been studying the 'UX' of our world under the larger guise of Anthropology and Philosophy.</p>
+            <p>I just recently finished up my studies at Binghamton University. Although I majored in CS and have concentrated in it since High School; I always was most interested in the way that we interact with the software and hardware in the world around us. To that end, my liberal arts studies have concentrated in Anthropology and Philosophy as a poor-mans way of studying UX in a broader scope.</p>
         </div>
     </div>
 </div>

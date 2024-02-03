@@ -1,6 +1,6 @@
 ---
 layout: employer
-cover-photo: '/assets/img/employers/amazon/bezosb.jpeg'
+cover-photo: '/assets/img/employers/amazon/bezosbfilm.jpg'
 logo: '/assets/img/employers/amazon/logo.svg'
 logo-alt: "Amazon Logo"
 empId: amazon

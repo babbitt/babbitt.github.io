@@ -1,6 +1,6 @@
 ---
 layout: employer
-cover-photo: '/assets/img/employers/rescon/background.jpg'
+cover-photo: '/assets/img/employers/rescon/backgroundfilm.jpg'
 logo: '/assets/img/employers/rescon/logo.svg'
 logo-alt: "Binghamton University Logo"
 empId: binghamton

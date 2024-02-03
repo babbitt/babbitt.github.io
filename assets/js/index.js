@@ -13,9 +13,6 @@ const APersonOffsetTop = APersonT.offsetTop;
 const AProgrammerOffsetTop = AProgrammerT.offsetTop;
 const AStudentOffsetTop = AStudentT.offsetTop;
 
-const born = new Date(972958260000);
-const now = new Date();
-document.querySelector('#yearsAlive').innerText = (new Date(now - born)).getUTCFullYear() - 1970
 
 setTimeout(() => {
     textFit(document.querySelectorAll('#AStudent h3'), {multiLine: false})
@@ -25,7 +22,7 @@ window.onresize = () => {
 }
 
 window.onscroll = () => {
-    if (window.pageYOffset >= 200) {
+    if (window.scrollY >= 200) {
         [...logoList].forEach((logo)=>logo.classList.add("small"));
         fullLogo.style.opacity = 0;
     }
@@ -34,7 +31,7 @@ window.onscroll = () => {
         fullLogo.style.opacity = 1;
     }
 
-    if (window.pageYOffset >= heroOffset) {
+    if (window.scrollY >= heroOffset) {
         nav.classList.add("sticky");
         navTitle.style.opacity = 1
     }
@@ -43,13 +40,10 @@ window.onscroll = () => {
         navTitle.style.opacity = 0;
     }
 
-    if (window.pageYOffset >= APersonOffsetTop && window.pageYOffset <= AProgrammerOffsetTop - 100) sectionName.textContent = "A Person";
-    else if (window.pageYOffset >= AProgrammerOffsetTop && window.pageYOffset <= AStudentOffsetTop - 100) sectionName.textContent = "A Programmer";
-    else if (window.pageYOffset >= AStudentOffsetTop - 100) sectionName.textContent = "A Student";
+    if (window.scrollY >= APersonOffsetTop && window.scrollY <= AProgrammerOffsetTop - 100) sectionName.textContent = "A Person";
+    else if (window.scrollY >= AProgrammerOffsetTop && window.scrollY <= AStudentOffsetTop - 100) sectionName.textContent = "A Programmer";
+    else if (window.scrollY >= AStudentOffsetTop - 100) sectionName.textContent = "A Student";
     else sectionName.textContent = "";
-
-    if (window.pageYOffset >= APersonOffsetTop - 150) photoMe.classList.add("removed");
-    else photoMe.classList.remove("removed");
 
 }
 

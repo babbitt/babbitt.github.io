@@ -42,6 +42,9 @@ collections:
   hackathon-projects:
     output: true
     permalink: /:collection/:title/
+  open-source:
+    output: true
+    permalink: /:collection/:title/
   personal-projects:
     output: true
     permalink: /:collection/:title/

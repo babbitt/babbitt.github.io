@@ -1,6 +1,6 @@
 ---
 layout: employer
-cover-photo: '/assets/img/employers/fairly/background.png'
+cover-photo: '/assets/img/employers/fairly/backgroundfilm.jpeg'
 logo: '/assets/img/employers/fairly/logo.svg'
 logo-alt: "Fairly Logo"
 empId: fairly

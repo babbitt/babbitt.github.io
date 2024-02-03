@@ -1,6 +1,6 @@
 ---
 layout: employer
-cover-photo: '/assets/img/employers/slugs/background.jpg'
+cover-photo: '/assets/img/employers/slugs/backgroundfilm.jpg'
 logo: '/assets/img/employers/slugs/logo.svg'
 logo-alt: "S.L.U.G.S Logo"
 empId: slugs
