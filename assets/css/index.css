@@ -142,9 +142,12 @@
 .organization {
     width: 10rem;
     height: 10rem;
+    display: flex;
 }
 .organization img{
     border-radius: 2%;
+    max-height: 100%;
+    margin: auto;
 }
 #award-cabinet-rotate {
     width: auto;

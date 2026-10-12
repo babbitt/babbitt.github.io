@@ -33,6 +33,9 @@ gem "webrick", "~> 1.7"
 
 gem 'jekyll-seo-tag'
 
+gem 'csv'
+gem 'base64'
+
 group :jekyll_plugins do
   gem "jekyll-pdf-embed"
   gem "jekyll_picture_tag", "~> 2.0.4"
